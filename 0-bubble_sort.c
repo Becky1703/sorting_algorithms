@@ -4,20 +4,6 @@
 #include "sort.h"
 
 /**
- * swap - function to implement bubble sort
- * @xp: integer to be swapped
- * @yp: second integer to be swapped
- *
- * Return: Always 0.
- */
-void swap(int *xp, int *yp)
-{
-int temp = *xp;
-*xp = *yp;
-*yp = temp;
-}
-
-/**
  * bubble_sort - function to sort array
  *@array: pointer to array
  *@size: size of the array
