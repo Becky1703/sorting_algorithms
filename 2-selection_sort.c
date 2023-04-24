@@ -16,7 +16,7 @@ size_t i = 0, j = 0, loc = 0;
 
 if (array == NULL || size == 0)
 return;
-for (; i < size -1; i++)
+for (; i < size - 1; i++)
 {
 loc = i;
 for (j = i + 1; j < size; j++)
